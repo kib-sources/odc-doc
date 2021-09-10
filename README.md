@@ -13,7 +13,7 @@
 
 Иерархия процессов:
 1. [User cases](user_cases/README.md) -- бизнес-сценарии ODC
-2. [Сценарии](scenarios/REAMDE.md) -- step-by-step сценарии 
+2. [Сценарии](scenarios/README.md) -- step-by-step сценарии 
 с описанием шагов и диаграммами взаимодействий компонентов системы
 3. [Операции](operations/README.md) -- конкретные операции,
 реализованные через REST или Kafka взаимодействия.
