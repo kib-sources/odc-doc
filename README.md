@@ -2,8 +2,33 @@
 
 Проект по документации Open Digital Cash проекта. 
 
-<b>Описание proof of consept проекта смотри тут: ... </b>
-Здесь и далее описание ODC полноценного проекта.
+# proof-of-consept
+
+См. тут: https://github.com/kib-sources/odc-poc
+
+# ODC v.1.0
+
+Первая реализация pet цифровых наличных Open Digital Cash (ODC)
+
+Исходники первой "наколеночной" версии:
+* https://github.com/kib-sources/odc-raspberry-app
+* https://github.com/kib-sources/odc-android-app
+* https://github.com/kib-sources/odc-pseudo-sim
+* https://github.com/kib-sources/odc-kotlin-core
+* https://github.com/kib-sources/odc-kotlin-server
+
+Вот что получилось:
+<object width="425" height="350">
+  <param name="movie" value="https://youtu.be/38J_q7Re6SI" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://youtu.be/38J_q7Re6SI"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
+<sub> Если видео не отображается, перейдите по ссылке: https://youtu.be/38J_q7Re6SI </sub>
+
+
+# ODC v.2.*
 
 ## Сокращения
 
