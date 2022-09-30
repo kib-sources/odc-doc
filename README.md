@@ -18,14 +18,10 @@
 * https://github.com/kib-sources/odc-kotlin-server
 
 Вот что получилось:
-<object width="425" height="350">
-  <param name="movie" value="https://youtu.be/38J_q7Re6SI" />
-  <param name="wmode" value="transparent" />
-  <embed src="https://youtu.be/38J_q7Re6SI"
-         type="application/x-shockwave-flash"
-         wmode="transparent" width="425" height="350" />
-</object>
-<sub> Если видео не отображается, перейдите по ссылке: https://youtu.be/38J_q7Re6SI </sub>
+
+[![](https://img.youtube.com/vi/38J_q7Re6SI/0.jpg)](https://www.youtube.com/watch?v=38J_q7Re6SI)
+
+<sub> Если видео не отображается, перейдите по ссылке: https://www.youtube.com/watch?v=38J_q7Re6SI </sub>
 
 
 # ODC v.2.*
