@@ -2,6 +2,9 @@
 
 Проект по документации Open Digital Cash проекта. 
 
+Канал в Telegram: https://t.me/odc_kib
+
+
 # proof-of-consept
 
 См. тут: https://github.com/kib-sources/odc-poc
