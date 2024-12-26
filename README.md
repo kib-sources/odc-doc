@@ -4,6 +4,9 @@
 
 Канал в Telegram: https://t.me/odc_kib
 
+# docusaurus
+
+См [README.docusaurus.md](README.docusaurus.md)
 
 # proof-of-consept
 
