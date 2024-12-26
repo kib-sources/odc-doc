@@ -1,3 +1,7 @@
+---
+sidebar_label: 'OP-FRW операции'
+sidebar_position: 2
+---
 # OP-FRW операции
 
 Операции для проектов:

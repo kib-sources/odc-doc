@@ -1,3 +1,7 @@
+---
+sidebar_label: 'OP-EXC'
+sidebar_position: 1
+---
 # OP-EXC
 
 Операции для проекта:  odc-exchange

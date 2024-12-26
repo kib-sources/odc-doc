@@ -1,3 +1,7 @@
+---
+sidebar_label: 'Сценарии'
+sidebar_position: 3
+---
 # Сценарии
 
 | Сценарий | User Cases |
