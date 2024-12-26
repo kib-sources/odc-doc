@@ -62,9 +62,27 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'dcSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'База',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'communitySidebar',
+          position: 'left',
+          label: 'Движение ODC',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'project3Sidebar',
+          position: 'left',
+          label: 'ODCv3',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'right',
+          label: 'Архив (разобрать)',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
