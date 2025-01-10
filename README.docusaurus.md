@@ -12,6 +12,14 @@ v22.12.0
 ~$ nvm use 22
 ```
 
+Установка `docusaurus` и окружения:
+```bash
+npm install
+```
+далее:
+```bash
+npm run build
+```
 
 
 Далее см. нужную команду:
