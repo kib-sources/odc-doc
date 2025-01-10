@@ -1,0 +1,1 @@
+# receive_banknote_step1
