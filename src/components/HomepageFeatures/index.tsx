@@ -10,35 +10,39 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Открытый протокол CBDC, с отсутствием корневой выдачи сертификатов',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Протокол ODC  — публичный, открытый и никогда не будет запатентован.
+          Вы можете смело использовать все наработки, написанные в данной документации, если это не запрещает
+          законодательство вашей страны.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Offline передача цифровых наличных',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        В отличие от другие CBDC протоколов,
+          ODC поддерживает offline передачу цифровых наличных.
+          Алгоритм ODC, исполняемый в доверенной среде,
+          криптографический стойкий.
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+    {
+        title: 'Открытое развивающиеся движение и сообщество',
+        Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+        description: (
+            <>
+                Движение ODC появилось в 2021 году на базе КИБ-овского движения.
+                Мы хотим превратить ODC в самостоятельный международный открытый проект
+                и распространить ODC протокол на Африку, Лат.Америку и Океанию.
+            </>
+        ),
+    },
 ];
 
 function Feature({title, Svg, description}: FeatureItem) {
