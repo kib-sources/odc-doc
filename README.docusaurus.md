@@ -47,43 +47,48 @@ Happy building awesome websites!
 
 ```
 
+## Перенос данных и запуск
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
+Поправьте файл `~/.ssh/config`, добавив туда строки:
 ```
-$ yarn
+Host odc-doc-server
+    HostName <IP>
+    User <USER>
+    PasswordAuthentication no
+    ConnectTimeout 40
 ```
+где вместо `<IP>`
+указан ip сервера,
+а вместо `<USER>`
+указан пользователь.
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+Создайте в `\home\<USER>` папку `odc-doc`:
+```bash
+~$ ssh odc-doc-server
+>$ cd ~
+>$ mkdir odc-doc
 ```
 
-Not using SSH:
+Если `<USER>` не равен `kib`,
+поправьте переменную `$SERVERUSER` в 
+[move.sh](move.sh).
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+Запустите на своём компе:
+```bash
+~$ ./move.sh
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Через `tmux` проинсталируйте, 
+сбилдите и запустите:
+```bash
+~$ ssh odc-doc-server
+>$ tmux attach -t 0
+>> cd ~/odc-doc
+>> nvm use 22
+>> npm install
+>> npm run build
+>> npm run serve
+```
+
+При первом запуске вместо `tmux attach -t 0`
+установите `tmux`
