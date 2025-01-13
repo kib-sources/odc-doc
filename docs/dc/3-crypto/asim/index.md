@@ -20,11 +20,11 @@ TODO
   <ol>
       <li><a href="https://rutube.ru/video/b8d031c27b154700e355f5021ed2aba6/?playlist=412951">Краткий обзор лекции 1. Простые числа</a></li>
       <li><a href="https://rutube.ru/video/79ece6de02e50186905412a8be40e178/?playlist=412951">Лекция 1. Простые числа. Эпизод 1. Скрытая угроза</a></li>
-      <li><a href="https://rutube.ru/video/597a068a06763128538dbcae87791454/?playlist=412951"></a>Лекция 1. Простые числа. Эпизод 2. Атака Великих</li>
-      <li><a href="https://rutube.ru/video/6dc9f88c07056195ae5f536bb71fa137/?playlist=412951"></a>Лекция 1. Простые числа. Эпизод 3. Новая Надежда</li>
-      <li><a href="https://rutube.ru/video/dedd1591404c8221bff0a99e749b18f3/?playlist=412951"></a>Лекция 2. Модульная арифметика</li>
-      <li><a href="https://rutube.ru/video/ee961b297d9b24b91598738022270c6b/?playlist=412951"></a>Лекция 3. Асимметричная криптография</li>
-      <li><a href="https://rutube.ru/video/d39144ce9fc91e32d2d68881eb2bb05b/?playlist=412951"></a>Лекция 4. Эллиптические кривые и криптография на их основе</li>
+      <li><a href="https://rutube.ru/video/597a068a06763128538dbcae87791454/?playlist=412951">Лекция 1. Простые числа. Эпизод 2. Атака Великих</a></li>
+      <li><a href="https://rutube.ru/video/6dc9f88c07056195ae5f536bb71fa137/?playlist=412951">Лекция 1. Простые числа. Эпизод 3. Новая Надежда</a></li>
+      <li><a href="https://rutube.ru/video/dedd1591404c8221bff0a99e749b18f3/?playlist=412951">Лекция 2. Модульная арифметика</a></li>
+      <li><a href="https://rutube.ru/video/ee961b297d9b24b91598738022270c6b/?playlist=412951">Лекция 3. Асимметричная криптография</a></li>
+      <li><a href="https://rutube.ru/video/d39144ce9fc91e32d2d68881eb2bb05b/?playlist=412951">Лекция 4. Эллиптические кривые и криптография на их основе</a></li>
   </ol>
 </details>
 
