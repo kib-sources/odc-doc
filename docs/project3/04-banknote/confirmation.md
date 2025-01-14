@@ -24,7 +24,7 @@ sidebar_position: 22
 [Кошелёк](../03-architecture/wallet/index)
 клиента
 передает на 
-[сервер](../03-architecture/server.md)
+[сервер](../03-architecture/bank/index.md)
 следующие данные:
 1. Заголовочный блок [`OdcbBlockHeader`](header.md)
 2. Все [`OdcbBlockChain`](block-chain.md) у которых не проставлено поле `hash_bank_by_bpk`
