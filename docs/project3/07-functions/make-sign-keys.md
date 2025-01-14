@@ -1,4 +1,4 @@
-# make_sign
+# make_sign_keys
 
 Функция создания подписи
 для поля `sign`

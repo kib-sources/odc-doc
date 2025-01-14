@@ -21,7 +21,7 @@ sidebar_position: 22
 
 ### Передача новых OdcbBlockChain
 
-[Кошелёк](../03-architecture/wallet.md)
+[Кошелёк](../03-architecture/wallet/index)
 клиента
 передает на 
 [сервер](../03-architecture/server.md)
