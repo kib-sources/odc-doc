@@ -362,7 +362,7 @@ graph RL;
 
 Для каждой банкноты
 вызывается
-[receive-banknote-step2.md](../../07-functions/receive-banknote-step2.md)
+[receive_banknote_step2](../../07-functions/receive-banknote-step2.md)
 
 По итогу:
 1. в [среде приложения](../../03-architecture/wallet/index.md#среда-приложения)
