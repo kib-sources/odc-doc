@@ -24,12 +24,56 @@ offline-кошелёк состоит из двух сред:
 из уже существующих
 в рамках offline передачи данных.
 
+## Схема
+
+Схематично offline кошелёк можно представить в виде:
+
+```mermaid
+---
+title: Offline Кошелёк
+---
+flowchart LR
+    receive-banknote-step1 --> get_counter
+    receive-banknote-step1 --> sign_hash0
+    transfer-banknote --> sign_hash_next_block
+    subgraph Доверенная среда 
+        subgraph data1[Данные]
+            spk[<a href=/docs/project3/information-security/keys#spk-sok>spk</a>]
+            counter[глобальный<br/><a href=#counter>counter</a>]
+            bcdict[<a href=banknote-counter-dict>Banknote-Counter словарь</a>]
+        end
+        subgraph func1[Функции]
+            get_counter[<a href=/docs/project3/functions/get-counter>get_counter</a>]
+            sign_hash0[<a href=/docs/project3/functions/sign-hash0>sign_hash0</a>]
+            sign_hash_next_block[<a href=/docs/project3/functions/sign-hash-next-block>sign_hash_next_block</a>]        
+        end
+    end
+    subgraph Среда приложения
+        subgraph data2[Данные]
+            wallet_data[<a href=#wid>wid</a>, <a href=/docs/project3/information-security/keys#spk-sok>sok</a>,<br/>и его подпись]
+            bank_keys[<a href=/docs/project3/information-security/keys#mpk-mok>mok</a>,<br/><a href=/docs/project3/information-security/keys#bpk-bok>bok</a>,<br/>и его подпись]
+        end
+        subgraph func2[Функции]
+            receive-banknote-step1[<a href=/docs/project3/functions/receive-banknote-step1>receive_banknote_step1</a>]
+            receive-banknote-step2[<a href=/docs/project3/functions/receive-banknote-step2>receive_banknote_step2</a>]
+            transfer-banknote[<a href=/docs/project3/functions/transfer-banknote>transfer-banknote</a>]
+            validation[<a href=/docs/project3/functions/validation>validation</a>]
+            make-func[<a href=/docs/project3/functions/make-salt>make-salt</a><br><a href=/docs/project3/functions/make-hash>make-hash</a>]
+        end
+    end
+```
+
+
+## Online кошелёк
+
 Для online передачи данных и online
 кошельков разделене сред не требуется.
-Безопасность гарантируется 
-доверием к 
+Безопасность гарантируется
+доверием к
 [серверной части](../bank/server.md)
 банка-эмитента.
+
+
 
 ## Среда приложения
 

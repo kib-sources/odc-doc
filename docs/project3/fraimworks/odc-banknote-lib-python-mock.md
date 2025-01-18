@@ -56,7 +56,7 @@ GitHub: https://github.com/kib-sources/odc-banknote-lib-python-mock
 Классом `SmartCard`
 реализованы функции:
 1. [sign_hash_next_block](../functions/sign-hash-next-block.md)
-1. [sign_hash0](../functions/sign-hash.md)
+1. [sign_hash0](../functions/sign-hash0)
 1. [get_counter](../functions/get-counter.md)
 
 ### ApplicationWallet

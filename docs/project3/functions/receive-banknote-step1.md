@@ -31,13 +31,13 @@ counter := get_counter(banknote_id)
 функцию.
 
 Вычисляет `hash0` через 
-[sign_hash](sign-hash.md)
+[sign_hash0](sign-hash0)
 функцию.
 
 Поле `hash0`
 подписывается
 функцией
-[sign_hash](sign-hash.md)
+[sign_hash0](sign-hash0)
 доверенной среды,
 получаем подпись `hash0_by_spk_owner`.
 
@@ -46,7 +46,7 @@ TODO Подумать с Дмитрием Тяжельниковым.
 
 может быть разумно объединить
 [`get-counter`](get-counter.md)
-и  [`sign_hash0`](sign-hash.md)
+и  [`sign_hash0`](sign-hash0)
 в рамках одной функции доверенной среды?
 
 Чтобы эта функция и каунтер нарисовала и соль придумала и подписала?
