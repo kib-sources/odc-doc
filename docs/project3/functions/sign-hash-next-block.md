@@ -6,10 +6,10 @@
 
 Синтаксис функции:
 ```
-sign = sign_hash_next_block(
-        banknote_id,
-        counter,
-        hash,
+sign := sign_hash_next_block(
+    banknote_id,
+    counter,
+    hash,
 )
 ```
 
