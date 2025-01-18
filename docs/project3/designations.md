@@ -15,7 +15,7 @@ Hash(a, b, c, ...)
 
 Сама хеш функция определяется 
 в поле `hash_algorithm` 
-[заголовка](04-banknote/header.md)
+[заголовка](banknote/header.md)
 банкноты.
 
 ## подпись
