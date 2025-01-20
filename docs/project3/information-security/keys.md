@@ -158,3 +158,8 @@ sidebar_position: 10
 Приватный ключ `spk`
 записывается в *доверенную среду*
 (смарт карту, SIM карту и т.д.)
+
+
+## Ключевое хранилище
+
+См [key-storage.md](../architecture/bank/key-storage.md)
