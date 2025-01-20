@@ -37,16 +37,27 @@
 
 ```mermaid
 sequenceDiagram
-    participant Отправитель
     participant Получатель
-    Note left of Отправитель: Создаётся новый <br/> OdcbBlockChain
-    Note left of Отправитель: receive_banknote_step1:: <br/> Появляется новая пара <br/>(banknote_id,counter)
-    Отправитель->>Получатель: Передача OdcbBlockChain для подписи
-    Note right of Получатель: transfer_banknote:: <br/> Удаляется пара (banknote_id,counter) <br/> Подписывается блок
-    Получатель->>Отправитель: Передача подписанного OdcbBlockChain
-    Note left of Отправитель: Сохранение OdcbBlockChain <br/> как новый блок <br/> блокчейна банкноты
+    participant Отправитель
+    Note left of Получатель: Создаётся новый <br/> OdcbBlockChain
+    Note left of Получатель: receive_banknote_step1:: <br/> Появляется новая пара <br/>(banknote_id,counter)
+    Получатель->>Отправитель: Передача OdcbBlockChain для подписи
+    Note right of Отправитель: transfer_banknote:: <br/> Удаляется пара (banknote_id,counter) <br/> Подписывается блок
+    Отправитель->>Получатель: Передача подписанного OdcbBlockChain
+    Note left of Получатель: Сохранение OdcbBlockChain <br/> как новый блок <br/> блокчейна банкноты
     
 ```
+
+:::note[Замечание]
+Подразумевается, 
+что 
+**до начала алгоритма**,
+отправитель уже отправил получателю
+все свои банкноты со всеми блоками 
+`OdcbBlockHeader`,
+`OdcbBlockApplicability` и
+`OdcbBlockChain`.
+:::
 
 
 ## 1. Создание новых блоков владения получателем (инициация) 
