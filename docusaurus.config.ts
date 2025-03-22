@@ -99,6 +99,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'timemoneySidebar',
+          position: 'left',
+          label: 'TM (ODC v2.5)',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
           label: 'Архив (разобрать)',
