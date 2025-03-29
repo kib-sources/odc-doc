@@ -24,13 +24,13 @@ title: Offline Кошелёк
 flowchart TB
     subgraph Кошелёк
         core-wallet[odc-banknote-core]
-        odc-time-wallet
+        odc-time-wallet[odc-time-wallet-xxxx]
     end
     odc-time-wallet --> core-wallet
     subgraph Сервер 
         core-server[odc-banknote-core]
         api
-        admin
+        admin[odc-admin]
         production
         accounting
         subgraph "Онлайн кошелёк"
