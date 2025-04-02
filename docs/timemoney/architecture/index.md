@@ -22,20 +22,30 @@ Cм. отличия тут: ... TODO
 title: Offline Кошелёк
 ---
 flowchart TB
-    odc-time-wallet --> odc-banknote-core
-    subgraph odc-time-server 
+    subgraph Кошелёк
+        core-wallet[odc-banknote-core]
+        odc-time-wallet[odc-time-wallet-xxxx]
+    end
+    odc-time-wallet --> core-wallet
+    subgraph Сервер 
+        core-server[odc-banknote-core]
         api
-        admin
+        admin[odc-admin]
         production
         accounting
+        subgraph "Онлайн кошелёк"
+            odc-online-wallet
+        end
     end
+    odc-online-wallet --> core-server
+    api --> odc-online-wallet
     admin --> production
-    production --> odc-banknote-core
+    production --> core-server
     production --> odc-time-wallet
     odc-time-wallet --> api
     api --> accounting
     production --> accounting
-    admin --> odc-banknote-core
+    admin --> core-server
 ```
 
 ## odc-time-wallet
