@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="28.0.9">
+  <diagram name="Страница — 1" id="UnyCnJjILwCODZTvQGrh">
+    <mxGraphModel dx="1426" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-8" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-10" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;dashed=1;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-160" width="580" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-11" value="Устройство 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-12" value="Устройство 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-13" value="Приложение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-14" value="Смарт-карта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-15" value="Приложение" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-16" value="Смарт-карта" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-17" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sm7_mnoxFOAWjDVgs5Bn-13" target="Sm7_mnoxFOAWjDVgs5Bn-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="sourcePoint" />
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-18" value="Offline-переводы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-19" value="Online&lt;div&gt;хранилище&lt;/div&gt;&lt;div&gt;банкнот&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-20" value="Online&lt;div&gt;хранилище&lt;/div&gt;&lt;div&gt;банкнот&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="-125" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Sm7_mnoxFOAWjDVgs5Bn-8" target="Sm7_mnoxFOAWjDVgs5Bn-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sm7_mnoxFOAWjDVgs5Bn-9" target="Sm7_mnoxFOAWjDVgs5Bn-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="325" as="sourcePoint" />
+            <mxPoint x="343" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-23" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="-93" as="sourcePoint" />
+            <mxPoint x="565" y="-97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-24" value="Online-переводы" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="-80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-25" value="Доступ к&amp;nbsp;&lt;div&gt;online хранилищу&amp;nbsp;&lt;/div&gt;&lt;div&gt;и &quot;команды&quot; по переводу средств&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm7_mnoxFOAWjDVgs5Bn-26" value="Доступ к&amp;nbsp;&lt;div&gt;online хранилищу&amp;nbsp;&lt;/div&gt;&lt;div&gt;и &quot;команды&quot; по переводу средств&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
