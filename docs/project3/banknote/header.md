@@ -1,7 +1,7 @@
 ---
 sidebar_position: 10
 ---
-# Блок заголовка
+# Блок заголовка (OdcbBlockHeader)
 
 Заголовок (`OdcbBlockHeader`)
 присутствует в единственном экземпляре в каждой банкноте.
@@ -23,8 +23,6 @@ sidebar_position: 10
 | `bok`                       | [Bank Open Key](../information-security/keys.md#bpk-bok)                                                   |                                                  |
 | `code`                      | Код валюты                                                                                                    | `KIB (000)` для теста. `RUB 643` для рублей РФ, например |
 | `amount`                    | Достоинство купюры в коде `code`                                                                              |                                                  |
-| `applicability`             | Основное [применение](../potential/banknote.md#applicability) банкноты                                     |  `ALL-0000-0000000`                                                |
-| `count_append_applicability_blocks` | Если применений более одного, то указывает количество дополнительных [applicability блоков](applicability.md) | `0`                                               |
 | `sign_algorithm`            | Алгоиртм подписи, используемый в банкноте                                                                     |`RSA-4096............`                                                  |
 | `hash_algorithm`            | Алгоритм хеша, используемый в банкноте                                                                        | `SHA-512.............`                                          |
 | `salt`                      | Соль                                                                                                          |                                          |
@@ -50,8 +48,6 @@ hash = Hash(
     bok, 
     code, 
     amount, 
-    applicability, 
-    count_append_applicability_blocks, 
     sign_algorithm, 
     hash_algorithm, 
     salt
